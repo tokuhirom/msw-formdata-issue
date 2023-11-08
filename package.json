@@ -11,5 +11,12 @@
   "devDependencies": {
     "mocha": "^10.2.0",
     "msw": "^2.0.3"
+  },
+  "type": "module",
+  "mocha": {
+    "spec": [
+      "test/*.spec.js"
+    ]
   }
+
 }
